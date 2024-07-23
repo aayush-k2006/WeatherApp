@@ -13,10 +13,11 @@ body {
   padding: 0;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .city h3 {
+  font-size: 1.5rem;
   margin-top: 10px;
   text-align: center;
   color: white;
@@ -24,9 +25,8 @@ body {
 
 .box {
   background-color: rgba(0, 0, 0, 0.3);
-  /* border: 1px solid black; */
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   margin: 100px auto;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .search-bar {
   margin-top: 10px;
-  margin-left: 85px;
+  margin-left: 50px;
 }
 
 .search-bar i {
@@ -53,16 +53,39 @@ body {
 }
 
 .search-bar input {
-  border: none;
+  outline: none;
   padding: 10px 30px;
   border-radius: 20px;
 }
 
 .weather img {
-  margin: 5px 160px;
-  height: 70px;
-  width: 70px;
+  margin: 5px 175px;
+  height: 110px;
+  width: 110px;
 }
-.weather h2 {
+.weather h1 {
+  font-size: 4rem;
   text-align: center;
+}
+
+.weather-limit span {
+  color: white;
+  gap: 20px;
+}
+
+.weather-limit {
+  /* background-color: blue; */
+  width: 100%;
+    text-align: center;
+
+}
+
+.weather-limit span{
+  font-size: 1rem;
+  padding: 0 10px;
+}
+
+.condition{
+  text-align: center;
+  color: white;
 }
